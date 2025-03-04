@@ -1,0 +1,291 @@
+/* MAIN PAGE */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Content Styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-grid div {
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* social links */
+
+footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+footer .copyright {
+    font-size: 0.9em;
+    color: #777;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* ABOUT ME PAGE */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+/* About Section */
+.about {
+    padding: 40px 5%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* About Heading */
+.about-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.about-heading h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+}
+
+/* Ensure image and text are in a row */
+.about-container {
+    display: flex;
+    align-items: flex-start; /* Aligns text with top of image */
+    justify-content: flex-start; /* Align content more to the right */
+    gap: 80px; /* Adjust spacing between image and text */
+}
+
+/* Image Container */
+.about-image-container {
+    flex: 1;
+    max-width: 420px;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Content */
+.about-text {
+    flex: 2;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 650px;
+    margin-left: 50px; /* Moves text further to the right */
+    margin-top: 0; /* Removes any extra margin */
+}
+
+
+
+
+
+/* CONTACT PAGE*/
+
+.header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.contact-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+/* PROJECTS PAGE */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 30px 0 15px;
+}
+
+/* Gallery */
+.gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
+.grid-item {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
